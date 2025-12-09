@@ -1,0 +1,31 @@
+.nav-list{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   height: 90px;
+   
+
+}
+
+.nav-list-item{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+header{
+    position: fixed;
+    top:0;
+     left: 0;   /* Ensure it spans the full viewport width */
+    right: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    background: white;
+    margin: 0;
+    height: 120px;
+    z-index: 1000;
+
+}

@@ -1,0 +1,31 @@
+.meals-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 30px;
+
+}
+
+.meal-image{
+    height: 300px;
+    width: 300px;
+    
+    
+}
+
+.meal-card{
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden; 
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    
+}
+
+.meal-name{
+    margin: 10px;
+    text-align: center;
+}
